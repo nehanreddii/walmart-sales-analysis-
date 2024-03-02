@@ -32,7 +32,8 @@
 | gross_income            | Gross Income                            | DECIMAL(10, 2) |
 | rating                  | Rating                                  | FLOAT(2, 1)    |
 
-__________________________________________________________________________________________________________________### Analysis List
+--------------------------------------------------------------------------------------------------------------------------------------------------
+### Analysis List
 
 1. Product Analysis
 
@@ -43,7 +44,8 @@ ________________________________________________________________________________
    This analysis aims to answer the question of the sales trends of product. The result of this can help use measure the effectiveness of each sales strategy the business applies and what modificatoins are needed to gain more sales.
 
 3. Customer Analysis
-  This analysis aims to uncover the different customers segments, purchase trends and the profitability of each customer segment.
+   
+   This analysis aims to uncover the different customers segments, purchase trends and the profitability of each customer segment.
 
 
 
