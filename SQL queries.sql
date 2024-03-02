@@ -3,11 +3,14 @@
 
 
 --------------create database----------------------
+
      CREATE DATABASE IF NOT EXISTS walmartSales;
 
 
--------------- Create table-------------------------
-CREATE TABLE IF NOT EXISTS sales(
+----------------Create table-------------------------
+
+
+CREATE TABLE  sales(
 	invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
     branch VARCHAR(5) NOT NULL,
     city VARCHAR(30) NOT NULL,
@@ -27,7 +30,8 @@ CREATE TABLE IF NOT EXISTS sales(
     rating FLOAT(2, 1)
 );
 
---# Data cleaning
+
+# Data cleaning
 SELECT
 	*
 FROM sales;
